@@ -1,0 +1,1 @@
+Projeto de Landing Page com HTML e CSS visando usabilidade e responsividade.
