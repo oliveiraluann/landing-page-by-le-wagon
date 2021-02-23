@@ -3,3 +3,93 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Overpass;
+    color: #404040;
+    font-size: 18px;
+}
+
+h1, h3 {
+    color: #404040;
+    font-family: 'Chivo';
+}
+
+h2 {
+    color: #404040;
+    font-family: 'Chivo';
+}
+
+a.card-white,
+a.card-white:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+#banner {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 200px 0;
+    text-align: center;
+}
+
+#banner h1 {
+    color: white;
+    font-size: 45px;
+}
+
+#banner p {
+    color: white;
+    font-size: 24px;
+    opacity: .7;
+}
+
+.btn-blue {
+    background-color: #1a48e3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+}
+
+.btn-blue:hover {
+    background-color: #0d1ec6;
+    color: white;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.card img {
+    max-width: 100%;
+    width: auto;
+}
+
+.container {
+    width: 900px;
+    height: 60px auto;
+}
+
+#footer {
+    background: #404040;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: 5px auto;
+}
