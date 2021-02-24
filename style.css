@@ -6,7 +6,7 @@ body {
 }
 
 p {
-    font-family: Overpass;
+    font-family: 'Chivo';
 }
 
 #banner {
@@ -76,7 +76,7 @@ p {
     grid-gap: 16px;
 }
 
-.card img {
+.cards img {
     max-width: 100%;
     width: auto;
 }
@@ -92,4 +92,53 @@ p {
     padding: 10px 0;
     text-align: center;
     margin: 5px auto;
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        width: 580px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 868px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 1124px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .typewriter {
+        animation: animated-text 4s steps(31, end);
+        animation-iteration-count: infinite;
+        display: inline-block;
+        white-space: nowrap;
+        letter-spacing: 1px;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
